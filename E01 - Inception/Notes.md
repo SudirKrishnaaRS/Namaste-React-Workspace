@@ -4,7 +4,7 @@
 These functions are fundamental in building and rendering React applications, allowing developers to create and manage the virtual DOM effectively.
 
 
-# React.createElement:
+### React.createElement:
 
 - `React.createElement` is a function provided by React to create React elements.
 - It takes three arguments: the type of the element (e.g., HTML tag or a React component), optional properties or attributes for the element, and the content or children of the element.
@@ -15,9 +15,10 @@ These functions are fundamental in building and rendering React applications, al
 ```javascript
 const heading = React.createElement("h1", {}, "Hello World from React!");
 ```
-In this example, heading is a React element representing an `<h1>` tag with the text "Hello World from React!".
+In this example, the heading is a React element representing an `<h1>` tag with the text "Hello World from React!".
 
-# ReactDOM.createRoot:
+
+### ReactDOM.createRoot:
 
 - `ReactDOM.createRoot`` is a method introduced in React 18 to create a root for a React application. It's an alternative to the older ReactDOM.render method.
 - It takes an HTML element as an argument, specifying where the React application will be rendered.
