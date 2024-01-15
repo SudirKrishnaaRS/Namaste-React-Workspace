@@ -6,7 +6,7 @@ These functions are fundamental in building and rendering React applications, al
 
 # React.createElement:
 
-- `React.createElement`` is a function provided by React to create React elements.
+- `React.createElement` is a function provided by React to create React elements.
 - It takes three arguments: the type of the element (e.g., HTML tag or a React component), optional properties or attributes for the element, and the content or children of the element.
 - It returns a React element, which is a lightweight virtual representation of a DOM element.
 
