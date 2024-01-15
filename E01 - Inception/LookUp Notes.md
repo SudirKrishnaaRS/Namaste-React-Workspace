@@ -1,14 +1,14 @@
 # **Topics LookedUp**
 
-## Pre-flight Requests:
+## Pre-flight Requests
 
 For certain requests, especially those that modify data or use non-standard HTTP methods, a pre-flight request is made by the browser to check if the actual request is allowed by the server.
 
-## CORS:
+## CORS
 
 CORS: CORS is a mechanism that enables web servers to specify which domains are allowed to access their resources. Web servers can include specific HTTP response headers to permit or deny cross-origin requests.
 
-## CDN:
+## CDN
 
 A Content Delivery Network (CDN) is a global network of distributed servers designed to deliver web content, such as images, videos, scripts, and web pages, more efficiently to users. CDNs reduce latency, improve website loading times, distribute traffic, enhance security, and optimize content delivery by caching data at edge servers. They are used to improve user experiences, increase website performance, and handle high volumes of web traffic while also providing security and scalability benefits.
 
@@ -40,7 +40,7 @@ The name `React` was chosen because the library was designed to allow developers
 A: The `crossorigin` attribute sets the mode of the request to an HTTP CORS Request.
 The purpose of the crossorigin attribute is used to share the resources from one domain to another domain. Basically, it is used to handle the CORS request. It is used to handle the CORS request that checks whether it is safe to allow for sharing the resources from other domains.
 
-### *Syntax*
+### _Syntax_
 
 ```html
 <script crossorigin="anonymous|use-credentials">
@@ -60,7 +60,7 @@ A: `Development` is the stage of an application before it's made public while `p
 
 A: `Async` - The async attribute is a `boolean attribute`. The script is downloaded in `parallel(in the background)` to parsing the page, and `executed as soon` as it is available (do not block HTML DOM construction during downloading process) and don’t wait for anything.
 
-### *Syntax*
+### _Syntax_
 
 ```html
 <script src="demo_async.js" async></script>
@@ -68,7 +68,7 @@ A: `Async` - The async attribute is a `boolean attribute`. The script is downloa
 
 `Defer` - The defer attribute is a `boolean attribute`. The script is downloaded in `parallel(in the background)` to parsing the page, and `executed after the page` has finished parsing(when browser finished DOM construction). The `defer attribute` tells the browser `not to wait for the script`. Instead, the browser will continue to process the HTML, build DOM.
 
-### *Syntax*
+### _Syntax_
 
 ```html
 <script src="demo_defer.js" defer></script>
@@ -77,7 +77,8 @@ A: `Async` - The async attribute is a `boolean attribute`. The script is downloa
 Unless you're supporting ancient legacy systems, always add `type="module"` to all your script tags:
 
 ```html
-<script type="module" src="main.js"></script> and place the tag inside <head>
+<script type="module" src="main.js"></script>
+and place the tag inside <head></head>
 ```
 
 ```html
