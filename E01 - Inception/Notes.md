@@ -1,4 +1,4 @@
-# EP 1
+# EP 01 - Inception
 
 ## Fundamental Functions
 
@@ -62,6 +62,7 @@ In this example, root is a Root object created for the HTML element with the id 
 
 ### Things to Know
 
+- React is a `Library`.
 - The most costly operation is DOM manipulation. The frameworka/libraries try to optimize this for performance.
 - All React elements are `Objects`.
 
@@ -87,3 +88,29 @@ Output :
   "_store": {}
 }
 ```
+
+- `Props` are children + Attributes that we pass. Refer the above example output.
+- All elements in JSX are `Objects`. Once the `ReactDOM.createRoot` is called this is when all the `objects` gets converted into  respective `html` elements. Thus ReactElement (object) => HTML element (which the browser understands).
+- Order of files is V.V.Imp.
+
+#### Correct ✅
+
+```html
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <script src="./App.js"></script>
+```
+
+#### Wrong ❌
+
+```html
+    <script src="./App.js"></script>
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+```
+
+Output : ```Error - React is not defined```
+
+- React works only inside `<div id="root"></div>`. React can work independently in a small portion of the application. React can also be used in a exsisting application inside header or footer or even a sidebar.This is one a reasons why React is `Library` and not a ~~Framework~~.
