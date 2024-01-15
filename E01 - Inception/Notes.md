@@ -39,8 +39,14 @@ In this example, root is a Root object created for the HTML element with the id 
 <div id="root"></div>
 
 <!-- React CDN Links: These script tags include React and ReactDOM libraries from a Content Delivery Network (CDN). -->
-<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<script
+  crossorigin
+  src="https://unpkg.com/react@18/umd/react.development.js"
+></script>
+<script
+  crossorigin
+  src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+></script>
 
 <script>
   // Creating a React element (a virtual representation of a DOM element) with an h1 tag containing the text "Hello World from React!"
@@ -52,4 +58,32 @@ In this example, root is a Root object created for the HTML element with the id 
   // Rendering the previously created React element (heading) into the root of our React application.
   root.render(heading);
 </script>
+```
+
+### Things to Know
+
+- The most costly operation is DOM manipulation. The frameworka/libraries try to optimize this for performance.
+- All React elements are `Objects`.
+
+**Example:**
+
+```javascript
+const heading = React.createElement( "h1", { id: "head-test-1" }, "Hello World from React!");
+console.log(heading);
+```
+
+Output :
+
+```json
+{
+  "type": "h1",
+  "key": null,
+  "ref": null,
+  "props": {
+    "id": "head-test-1",
+    "children": "Hello World from React!"
+  },
+  "_owner": null,
+  "_store": {}
+}
 ```
