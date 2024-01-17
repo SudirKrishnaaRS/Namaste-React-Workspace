@@ -87,3 +87,9 @@
     ```json
         "parcel": "~2.11.0"
     ```
+
+![image](https://github.com/SudirKrishnaaRS/Namaste-React-Workspace/assets/67383465/52317f38-a2a8-4c5b-b62a-9652cec7ea7a)
+
+## Versions in a Nutshell
+
+![image](https://github.com/SudirKrishnaaRS/Namaste-React-Workspace/assets/67383465/ca7ef6d7-6203-4bed-8f05-19ce106bddb1)
