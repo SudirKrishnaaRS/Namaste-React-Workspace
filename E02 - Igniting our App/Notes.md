@@ -80,6 +80,11 @@
 
 **Dev-dependencies**: Refers to packages that are only needed during the development and testing phase. They are not essential for the application to run in a production environment but are helpful during the development process, such as testing frameworks or build tools.
 
+## Transitive dependencies
+
+- Transitive dependencies are the additional packages that a project relies on indirectly through its direct dependencies. These dependencies are not explicitly listed in the project's package.json file but are required by the installed dependencies.
+- Example : When you install `tailwind` package, npm not only installs tailwind in `node_modules` folder but several other dependencies along with it which is necessary for tailwind to run. These indirect dependencies are called **Transitive Dependencies**.
+
 ## Symbols in Dependencies
 
 - **^ (caret)**: Allows updates for the specified package up to the next major version. For example, "^1.2.3" allows updates to versions 1.x.x, excluding version 2.0.0 and higher.
