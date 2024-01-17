@@ -99,3 +99,22 @@
 ## Versions in a Nutshell
 
 ![image](https://github.com/SudirKrishnaaRS/Namaste-React-Workspace/assets/67383465/ca7ef6d7-6203-4bed-8f05-19ce106bddb1)
+
+## node_modules
+
+- The `node_modules` folder is a directory in a Node.js project that contains locally installed npm packages.
+- When you run `npm install`, it creates this folder and installs the project's dependencies into it.
+- The `node_modules` folder is typically excluded from version control, and npm uses the information in the `package.json` and `package-lock.json` files to manage and recreate the folder's structure.
+
+## Transpiler
+
+- A transpiler, short for "source-to-source compiler," is a tool that converts source code written in one programming language into equivalent code in another language while maintaining the same functionality.
+- Unlike traditional compilers, which translate code to a lower-level language like machine code, transpilers are often used for converting code between higher-level languages, such as compiling modern ECMAScript (ES6+) JavaScript to older JavaScript versions for broader compatibility.
+- Transpilers facilitate code migration, compatibility, and adoption of new language features across different environments.
+- Example : Babel
+
+## Babel
+
+- Babel is a transpiler that allows developers to write code using the latest ECMAScript features (ES6 and beyond) and then transpile it into a version compatible with older JavaScript environments.
+- It enables cross-browser compatibility and the adoption of new language features by converting modern JavaScript code into equivalent code that works in older browsers or environments.
+- Babel is extensively used in front-end and back-end development for its role in modern JavaScript ecosystem tooling.
