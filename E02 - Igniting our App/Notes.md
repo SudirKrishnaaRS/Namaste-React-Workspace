@@ -56,6 +56,12 @@
   - **dependencies**: External packages required for production.
   - **devDependencies**: Packages only needed for development and testing.
 
+## Package-lock.json
+
+- The `package-lock.json` file is an automatically generated file in a Node.js project that locks down the versions of installed npm packages, ensuring consistency across different development environments.
+- This file aids in reproducibility and helps prevent unintentional updates to package versions when the project is shared or deployed.
+- It includes specific version information for each dependency, along with details about the project's dependency tree and nested dependencies.
+
 ## Bundler
 
 - A bundler is a tool that combines and packages multiple files and dependencies from a project into a single, optimized file or set of files for deployment.
