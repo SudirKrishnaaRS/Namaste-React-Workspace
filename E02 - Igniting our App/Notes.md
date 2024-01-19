@@ -139,3 +139,27 @@
 - NPM Package ✅:
   - PREFFERED as it would be readily available in node_modules folder.
   - If the react version changes it would be easy to maintain in package.json file.
+
+## Parcel uses
+
+- Dev Build
+- Provides a Local Server
+- HMR (Hot Module Replacement) : Basically when you save the changes appear without the need of reload. (HINT: same as Hot Reload)
+- The HMR is possible due to File Watching Algorithm (internally written in C++)
+- Faster Builds for development (Due to caching)
+- Image Optimisation (NOTE: Most expensive operation is displaying images)
+- Minification
+- Bundling
+- Compress
+- Consistent Hashing
+- Code Splitting
+- Differential Bundling : support older browsers
+- Helps in diagnostics and Error handling
+- Supports for HTTPS
+- Tree Shaking : This algorithm removes unused code.
+- Different Dev and Production bundles
+
+## Browserslist (npm package)
+
+- Refer https://browserslist.dev/?q=bGFzdCAyIHZlcnNpb25z
+- This helps in supporting our App for which versions of browser. 
