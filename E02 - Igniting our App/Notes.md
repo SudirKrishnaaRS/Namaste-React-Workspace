@@ -15,6 +15,12 @@
     npm init
     ```
 
+## NPM vs NPX
+
+- **npm** (Node Package Manager): npm is the package manager for Node.js, used for installing and managing project dependencies. It is also used for running scripts defined in the package.json file.
+
+- **npx**: npx is a tool that comes with npm, allowing you to execute packages directly without having to install them globally. It is commonly used for running binaries from packages, such as build tools or command-line utilities, without the need for a separate installation step.
+
 ## Package.JSON
 
 - `package.json` is configuration for npm.
@@ -89,15 +95,15 @@
 
 - **^ (caret)**: Allows updates for the specified package up to the next major version. For example, "^1.2.3" allows updates to versions 1.x.x, excluding version 2.0.0 and higher.
 
-    ```json
-        "parcel": "^2.11.0"
-    ```
+  ```json
+      "parcel": "^2.11.0"
+  ```
 
 - **~ (tilde)**: Permits updates for the specified package up to the next minor version. For instance, "~1.2.3" allows updates to versions 1.2.x, excluding version 1.3.0 and higher.
 
-    ```json
-        "parcel": "~2.11.0"
-    ```
+  ```json
+      "parcel": "~2.11.0"
+  ```
 
 ![image](https://github.com/SudirKrishnaaRS/Namaste-React-Workspace/assets/67383465/52317f38-a2a8-4c5b-b62a-9652cec7ea7a)
 
@@ -123,3 +129,13 @@
 - Babel is a transpiler that allows developers to write code using the latest ECMAScript features (ES6 and beyond) and then transpile it into a version compatible with older JavaScript environments.
 - It enables cross-browser compatibility and the adoption of new language features by converting modern JavaScript code into equivalent code that works in older browsers or environments.
 - Babel is extensively used in front-end and back-end development for its role in modern JavaScript ecosystem tooling.
+
+## Installation of React - Best Way ?
+
+- CDN ❌:
+  - NOT PREFERED as again making a network call is costly operation and time consuming.
+  - Not feasible if react version has chnaged then the cdn URL needs to replaced.
+
+- NPM Package ✅:
+  - PREFFERED as it would be readily available in node_modules folder.
+  - If the react version changes it would be easy to maintain in package.json file.
