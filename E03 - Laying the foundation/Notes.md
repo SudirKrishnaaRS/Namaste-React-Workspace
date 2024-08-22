@@ -2,7 +2,7 @@
 
 - JSX is HTML-like Sytax in JavaScript
 - JSX gets transpiled by Babel (Babel is a JS compiler)
-- JSX => React.CreateElement => React Elements(which are basically Objects) => HTML elements (converted by react-dom from React elements to html elements that the JS engine(browser) understands)
+- JSX => React.CreateElement => React Elements(which are basically Objects) => HTML elements (converted by react-dom from React elements to html elements that the JS engine(browser) understands) **(NOTE : Similar to CodeEvolution React Render Vid)**
 - NOTE : not HTML but it's HTML-like
 
 Example :
