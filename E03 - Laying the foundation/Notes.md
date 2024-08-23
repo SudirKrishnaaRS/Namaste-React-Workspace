@@ -7,14 +7,13 @@
 
 Example :
 
-<!-- Traditional React -->
+Traditional React 
 
 ```javascript
 const heading = React.createElement("h1", { id: "heading" }, "Namaste React");
 ```
 
-<!-- JSX -->
-
+JSX 
 ```javascript
 const jsxHeading = <h1 id: "heading">Namaste React</h1>
 ```
