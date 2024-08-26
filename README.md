@@ -67,3 +67,40 @@ React elements are the smallest building blocks of React applications. They are 
 // Creating a React element
 const element = <h1>Hello, world!</h1>;
 ```
+
+## Component Composition
+
+**Definition:**
+
+Component composition is the practice of building complex UIs by combining simpler components.
+(HINT : In simpler words , Composing (using) components into one another)
+It allows for reusability, better organization, and more manageable code.
+
+**Gotchas:**
+
+- Avoid deeply nested components as they can make the code harder to read and maintain.
+- Use composition instead of inheritance to extend component functionality in React.
+
+**Code Snippet:**
+
+```javascript
+function Button({ label, onClick }) {
+  return <button onClick={onClick}>{label}</button>;
+}
+
+function App() {
+  const handleClick = () => {
+    alert("Button clicked!");
+  };
+
+  return (
+    <div>
+      <Button label="Click Me" onClick={handleClick} />
+      <Button label="Submit" onClick={handleClick} />
+    </div>
+  );
+}
+
+// Usage
+<App />;
+```
