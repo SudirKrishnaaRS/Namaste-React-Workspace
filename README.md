@@ -49,3 +49,21 @@ class Greeting extends React.Component {
 // Usage
 <Greeting name="John" />;
 ```
+
+## React Elements
+
+**Definition:**
+
+React elements are the smallest building blocks of React applications. They are plain objects that describe what you want to see on the screen. Unlike components, React elements do not manage their state.
+
+**Gotchas:**
+
+- React elements are immutable. Once an element is created, you cannot change its children or attributes.
+- Elements are typically created using JSX, which is a syntax extension for JavaScript.
+
+**Code Snippet:**
+
+```javascript
+// Creating a React element
+const element = <h1>Hello, world!</h1>;
+```
