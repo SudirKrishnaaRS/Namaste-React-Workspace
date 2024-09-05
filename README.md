@@ -1,6 +1,6 @@
 # Namaste React
 
-# EP 3 : Laying the Foundation
+# EP 3: Laying the Foundation
 
 ## JSX
 
@@ -73,7 +73,7 @@ const element = <h1>Hello, world!</h1>;
 **Definition:**
 
 Component composition is the practice of building complex UIs by combining simpler components.
-(HINT : In simpler words , Composing (using) components into one another)
+(HINT: In simpler words, Composing (using) components into one another)
 It allows for reusability, better organization, and more manageable code.
 
 **Gotchas:**
