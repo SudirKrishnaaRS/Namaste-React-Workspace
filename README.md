@@ -76,7 +76,7 @@ Component composition is the practice of building complex UIs by combining simpl
 (HINT: In simpler words, Composing (using) components into one another)
 It allows for reusability, better organization, and more manageable code.
 
-**Gotchas:**
+**Gotchas :**
 
 - Avoid deeply nested components as they can make the code harder to read and maintain.
 - Use composition instead of inheritance to extend component functionality in React.
