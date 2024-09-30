@@ -59,7 +59,7 @@ React elements are the smallest building blocks of React applications. They are 
 **Gotchas:**
 
 - React elements are immutable. Once an element is created, you cannot change its children or attributes.
-- Elements are typically created using JSX, which is a syntax extension for JavaScript.
+- Elements are typically created using JSX, a syntax extension for JavaScript.
 
 **Code Snippet:**
 
