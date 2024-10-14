@@ -15,7 +15,7 @@ JSX is a syntax extension for JavaScript that looks similar to HTML. It allows y
 
 **Code Snippet:**
 
-Traditional React
+Traditional React:
 
 ```javascript
 const heading = React.createElement("h1", { id: "heading" }, "Namaste React");
